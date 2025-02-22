@@ -1,328 +1,155 @@
-<!DOCTYPE HTML>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>James Barrett</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUa6mYk2Rk6BzQQwl7I7BbyBgS3LLtN/mG6u7SkFZB4/42L2hs9WVRK2mC7F"
+      crossorigin="anonymous"
+    />
+    <!-- Your existing stylesheet (if you want to preserve custom styles) -->
+    <link rel="stylesheet" href="stylesheet.css" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>"
+    />
+  </head>
+  <body>
+    <!-- HEADER / NAVBAR -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">James Barrett</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <!-- Navigation Links -->
+              <li class="nav-item">
+                <a class="nav-link" href="#research">Research</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="mailto:james6.barrett@uwe.ac.uk">Contact</a>
+              </li>
+              <!-- Add more nav items if needed -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-  <title>James Barrett</title>
-  
-  <meta name="author" content="James Barrett">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22> 🌐 </text></svg>">
-</head>
+    <!-- MAIN CONTENT -->
+    <main class="container my-5">
+      <div class="row">
+        <!-- LEFT COLUMN: Research -->
+        <div class="col-md-6">
+          <section id="research">
+            <h2 class="mb-4">Research</h2>
+            <!--
+              RESEARCH ITEM PLACEHOLDER
+              Copy and paste the below card for each research item.
+            -->
+            <div class="card mb-3">
+              <div class="row g-0">
+                <!-- Research image -->
+                <div class="col-md-4">
+                  <img
+                    src="images/ram_plus_compare.jpg"
+                    class="img-fluid rounded-start"
+                    alt="Research Image Placeholder"
+                  />
+                </div>
+                <!-- Research details -->
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Research Title Placeholder</h5>
+                    <p class="card-text">
+                      Brief description of your research project. Add links to papers or additional details as needed.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Authors, Year</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--
+              ADD MORE RESEARCH ITEMS BELOW
+              Simply copy the above card structure for each new entry.
+            -->
+          </section>
+        </div>
 
-<body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:63%;vertical-align:middle">
-              <p style="text-align:center">
-                <name>James Barrett</name>
-              </p>
-              <p>I am a fourth-year Ph.D. student at <a href="https:/www.uwe.ac.uk> at the College of Art Technology and Environment</a>, supervised by 
-                 <a href="https://people.uwe.ac.uk/Person/PhilLegg">Prof. Phil Legg</a> and <a href="https://people.uwe.ac.uk/Person/JamesSmith">Prof. Jim Smith.</a> Meanwhile, I'm also a research intern at Ribbon Communications, supervised by Analytics Lead <a 
-                href="">Chip Boyle</a>.
-		      
+        <!-- RIGHT COLUMN: Project Portfolio -->
+        <div class="col-md-6">
+          <section id="portfolio">
+            <h2 class="mb-4">Project Portfolio</h2>
+            <!--
+              PROJECT ITEM PLACEHOLDER
+              Copy and paste the below card for each project.
+            -->
+            <div class="card mb-3">
+              <div class="row g-0">
+                <!-- Project image -->
+                <div class="col-md-4">
+                  <img
+                    src="images/tag2text.png"
+                    class="img-fluid rounded-start"
+                    alt="Project Image Placeholder"
+                  />
+                </div>
+                <!-- Project details -->
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Project Title Placeholder</h5>
+                    <p class="card-text">
+                      Brief description of your project. You can add a link to a demo, GitHub repository, or project page.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Additional details or timeline</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--
+              ADD MORE PROJECT ITEMS BELOW
+              Simply copy the above card structure for additional projects.
+            -->
+          </section>
+        </div>
+      </div>
+    </main>
 
-              </p>
-              <p>
-		My research interests include time series forecasting and explainability. I have been working on developing new methods of human in the loop forecasting and methods of expanding
-		      traditional XAI libraries to account for temporal dependencies for future research publications. 
-    
-              </p>
-              <p>
-                <strong>I expect to graduate near to May 2025. I am opening to both academic positions and industrial research positions. Kindly download my <a href="images/> Current CV</a>, and do not hesitate to email me if you're interested :)</strong>
-              </p>
-              <p style="text-align:center">
-<!--                 <a href="images/MYCVHERE.pdf">My CV</a> &nbsp/&nbsp -->
-                <a href="mailto:james6.barrett@uwe.ac.uk">Email Me</a> &nbsp/&nbsp
-                <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=LFARMX8AAAAJ">Google Scholar</a>
-                &nbsp/&nbsp
-                <a href="https://github.com/jbsec">Github</a> &nbsp/&nbsp
-              </p>
-            <!-- </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/xinyuhuang.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/xinyuhuang.jpg" class="hoverZoomLink"></a>
-            </td> -->
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/jamesbarrett.jpeg"><img style="width:80%;max-width:80" alt="profile photo"
-                  src="images/jamesbarrett.jpeg" class="hoverZoomLink"></a>
-            </td>
-          </tr>
-        </tbody></table>
+    <!-- FOOTER -->
+    <footer class="bg-light py-4">
+      <div class="container text-center">
+        <p class="mb-0">&copy; 2023 James Barrett. All rights reserved.</p>
+      </div>
+    </footer>
 
-
-
-
-	      
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <!-- <heading>Research</heading>
-		      -->
-                <heading>Research</heading> 
-		      
-
-          </td>
-            </tr>
-        </tbody></table>
-        <style>
-          img {
-            border-radius: 15px;
-          }
-        </style>,
-
-	              <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/ram_plus_compare.jpg" alt="tag2text" width="190" height="110">
-            </td>
-            <td width="75%" valign="middle">
-              <a href="https://dl.acm.org/doi/10.1145/3674029.3674035">
-                <papertitle> Analyst-Driven XAI for Time Series Forecasting: Analytics for Telecoms Maintenance </papertitle>
-              </a>
-
-              <papertitle> <br> Trends and Challenges in Data Analytics and Machine Learning Using Call Detail Records in Telecom Systems </papertitle>
-              <br>
-              <strong>James Barrett</strong>, Phil Legg, Jim Smith, Chip Boyle, Tim Barnes
-              <br>
-              <em>ACM Link</em>,
-              2023
-              <br>
-              <!-- <a href="https://recognize-anything.github.io/">project page</a> -->
-              
-              <a href="https://arxiv.org/abs/2306.03514">arXiv</a>
-              /
-              <!-- <a href="#">demo</a> -->
-              
-              <a href="https://github.com/xinyu1205/Recognize_Anything-Tag2Text">code</a>
-              <p></p>
-              <p>This paper does this <strong>which does this</strong>, including <strong>This other thing</strong>.  </p>
-            </td>
-          </tr>
-        
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/ram_plus_compare.jpg" alt="tag2text" width="190" height="110">
-            </td>
-            <td width="75%" valign="middle">
-              <a href="https://dl.acm.org/doi/10.1145/3674029.3674035">
-                <papertitle> Analyst-Driven XAI for Time Series Forecasting: Analytics for Telecoms Maintenance </papertitle>
-              </a>
-
-              <papertitle> <br> Trends and Challenges in Data Analytics and Machine Learning Using Call Detail Records in Telecom Systems </papertitle>
-              <br>
-              <strong>James Barrett</strong>, Phil Legg, Jim Smith, Chip Boyle, Tim Barnes
-              <br>
-              <em>ACM Link</em>,
-              2023
-              <br>
-              <!-- <a href="https://recognize-anything.github.io/">project page</a> -->
-              
-              <a href="https://arxiv.org/abs/2306.03514">arXiv</a>
-              /
-              <!-- <a href="#">demo</a> -->
-              
-              <a href="https://github.com/xinyu1205/Recognize_Anything-Tag2Text">code</a>
-              <p></p>
-              <p>This paper does this <strong>which does this</strong>, including <strong>This other thing</strong>.  </p>
-            </td>
-          </tr>
-
-
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/localization_and_recognition.jpg" alt="tag2text" width="190" height="110">
-            </td>
-            <td width="75%" valign="middle">
-              <a href="https://www.preprints.org/manuscript/202409.1334/v1">
-                <papertitle> Trends and Challenges in Data Analytics and Machine Learning Using Call Detail Records in Telecom Systems </papertitle>
-              </a>
-              <papertitle> <br> Trends and Challenges in Data Analytics and Machine Learning Using Call Detail Records in Telecom Systems </papertitle>
-              <br>
-		    
-              James Barrett,
-              <strong>James Barrett</strong>,
-              James Barrett, Phil Legg, Jim Smith, Chip Boyle, Tim Barnes
-              <br>
-              <strong><em>Preprints.org</em></strong>
-              <br>
-              <a href="#">project page</a>
-              /
-              <a href="#">arXiv</a>
-              /
-              <a href="#">demo</a>
-              /
-              <a href="#">code</a>
-              <p></p>
-              <p>In this survey we.....</strong>.    </p>
-            </td>
-          </tr>
-		
-	
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/localization_and_recognition.jpg" alt="tag2text" width="190" height="110">
-            </td>
-            <td width="75%" valign="middle">
-              <a href="https://www.preprints.org/manuscript/202409.1334/v1">
-                <papertitle> Trends and Challenges in Data Analytics and Machine Learning Using Call Detail Records in Telecom Systems </papertitle>
-              </a>
-              <papertitle> <br> Trends and Challenges in Data Analytics and Machine Learning Using Call Detail Records in Telecom Systems </papertitle>
-              <br>
-		    
-              James Barrett,
-              <strong>James Barrett</strong>,
-              James Barrett, Phil Legg, Jim Smith, Chip Boyle, Tim Barnes
-              <br>
-              <strong><em>Preprints.org</em></strong>
-              <br>
-              <a href="#">project page</a>
-              /
-              <a href="#">arXiv</a>
-              /
-              <a href="#">demo</a>
-              /
-              <a href="#">code</a>
-              <p></p>
-              <p>In this survey we.....</strong>.    </p>
-            </td>
-          </tr>
-
-
-
-		
-
-
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/tag2text.png" alt="tag2text" width="190" height="110">
-            </td>
-            <td width="75%" valign="middle">
-              <a href="#">
-                <papertitle> A Literature Review of Explainability and Interactive Machine Learning </papertitle>
-              </a>
-              <papertitle> <br>a PhD literature review</papertitle>
-              <br>
-              <strong>James Barrett</strong>,
-              James Barrett,
-              Phil Legg,
-              Jim Smith,
-              Chip Boyle,
-              Tim Barnes,
-
-              <br>
-              <strong><em>Some conference</em></strong>
-              <br>
-              <a href="#">project page</a>
-              /
-              <a href="#">arXiv</a>
-              /
-              <a href="#">demo</a>
-              /
-              <a href="#">code</a>
-              <p></p>
-              <p>In this review we, which can <strong> use to do this thing</strong>.              </p>
-            </td>
-          </tr>
-
-
-
-
-		
-
-
-
-
-
-
-
-
-   <!--
-
-
-
-	      
-    <table
-    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tbody>
-      <tr>
-        <td style="padding:20px;width:100%;vertical-align:middle">
-          <heading>Projects & Resources</heading>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr>
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <img src="images/tagging_results.jpg" alt="tag2text" width="190" height="110">
-      </td>
-      <td width="75%" valign="middle">
-        <a href="https://github.com/xinyu1205/recognize-anything">
-          <papertitle> Recognize Anything Family</papertitle>
-        </a>
-        <br>
-        <strong>Project Creator/Owner</strong>
-        <br>
-        <span style="color: red;">2.4K+ stars! </span>
-        <p></p>
-        <p>We provide <strong>Recognize Anything Model Family (RAM)</strong> demonstrating <strong>superior image recognition ability!</strong> </p>
-      </td>
-    </tr>
-
-
-
-
-	  
-
-  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr>
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <img src="images/tag2text_grounded_cam.png" alt="tag2text" width="190" height="110">
-      </td>
-      <td width="75%" valign="middle">
-        <a href="https://github.com/IDEA-Research/Grounded-Segment-Anything">
-          <papertitle> RAM-Grounded-SAM </papertitle>
-        </a>
-        <br>
-        <strong>Project Co-Leader</strong>
-        <br>
-        <span style="color: red;">14K+ stars! </span>
-        <p></p>
-        <p><strong>RAM Faimly marry Grounded-SAM</strong>, which can <strong>automatically recognize, detect, and segment</strong> for an image! RAM Family showcases <strong>powerful image recognition capabilities!</strong> </p>
-      </td>
-    </tr>
-
-
-
-
-</tbody></table>
-
-
-
-
-
-	      
---!>
-
-
-
-	      
-      </td>
-    </tr>
-  </table>
-
-
-
-
-	
-</body>
-
+    <!-- Bootstrap JS Bundle (includes Popper) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+YtN0e5Y5F1i5rNRTF6FiJb6+8K9e"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
